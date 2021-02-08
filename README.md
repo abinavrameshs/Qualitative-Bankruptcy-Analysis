@@ -1,9 +1,14 @@
 # Qualitative-Bankruptcy-Analysis
+
 Analysis of Qualitative Bankruptcy data from UCI ML Database
 
-Link of the data Source : 
+# Aim
+To predict `Class` variable (Which indicates if a firm will go Bankrupt or not)
+
+# Link of the data Source 
 http://archive.ics.uci.edu/ml/datasets/Qualitative_Bankruptcy
 
+# Tasks performed
 Peformed the following activities in the IPYTHON notebook using Qualitative Bankruptcy dataset  : 
 1. Profiling report and Correlations
 2. Pandas profiling report
@@ -27,8 +32,5 @@ Peformed the following activities in the IPYTHON notebook using Qualitative Bank
     - Confusion Matrix
     - Using SHAP values to explain the model
 
-
-Modelling task : To predict `Class` variable (Which indicates if a firm will go Bankrupt or not)
-
-Process for modelling : 
+# Process for modelling  
 Used PyCaret (Low code ML library) to build classification models, tune and select a Champion model
